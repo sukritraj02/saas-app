@@ -87,5 +87,3 @@ If you like this project, please ⭐️ the repo and follow me on [GitHub](https
 
 ---
 
-## 📝 License
-This project is licensed under the MIT License.
