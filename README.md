@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Converso: Real-time AI Teaching Platform
 
-## Getting Started
+Welcome to **Converso**, a real-time AI-powered teaching platform that lets you build and personalize your own learning companions. This project is developed and maintained by [@sukritraj02](https://github.com/sukritraj02).
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
+## 🚀 Overview
+Converso enables users to:
+- Build custom AI companions for different subjects and topics
+- Personalize each companion's name, subject, voice, and personality
+- Learn through natural, real-time voice conversations
+- Track your learning journey and session history
+
+Whether you're a student, educator, or lifelong learner, Converso makes learning interactive and fun!
+
+---
+
+## ✨ Features
+- **Create Companions:** Pick a name, subject, voice, and style to create your own AI tutor.
+- **Voice Conversations:** Engage in real-time, natural voice sessions powered by advanced AI.
+- **Subject Variety:** Learn topics in Maths, Science, Language, Coding, History, Economics, and more.
+- **Session Tracking:** View your recent sessions and companions created in your personal journey dashboard.
+- **Personalized Experience:** Each companion can be tailored to your learning style and needs.
+- **Authentication:** Secure sign-in and user management with Clerk.
+- **Modern UI:** Responsive, accessible, and visually appealing interface.
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** [Next.js 15](https://nextjs.org/)
+- **Frontend:** React 19, Tailwind CSS, Radix UI, Lottie
+- **AI/Voice:** OpenAI GPT-4, 11Labs, Vapi SDK, Deepgram
+- **Auth:** Clerk
+- **Database:** Supabase
+- **Error Monitoring:** Sentry
+- **Validation:** Zod, React Hook Form
+- **Other:** TypeScript, ESLint, PostCSS
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sukritraj02/saas-app.git
+   cd saas-app
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+yarn install
+   ```
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env.local` and fill in the required API keys (Supabase, Clerk, Vapi, Sentry, etc).
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧑‍💻 Usage
+- **Create a Companion:** Go to "Companions" > "Build a New Companion". Fill in the details and start a session.
+- **Start a Session:** Select a companion and begin a real-time voice conversation on your chosen topic.
+- **Track Progress:** Visit "My Journey" to see your session history and companions created.
+- **Sign In/Out:** Use Clerk authentication for secure access.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📚 Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Clerk Authentication](https://clerk.com/docs)
+- [Supabase](https://supabase.com/docs)
+- [Vapi AI](https://vapi.ai/docs)
+- [Sentry](https://docs.sentry.io/platforms/javascript/guides/nextjs/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🙏 Credits
+Developed by [Sukrit Raj](https://github.com/sukritraj02) and contributors.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you like this project, please ⭐️ the repo and follow me on [GitHub](https://github.com/sukritraj02)!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+This project is licensed under the MIT License.
